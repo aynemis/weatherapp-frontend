@@ -12,7 +12,7 @@ document.querySelector('#register').addEventListener('click', function (){
     .then(response => response.json())
     .then(data => {
         if (data.result){
-            window.location.assign("https://weatherapp-backend-fctd.vercel.app/")
+            window.location.assign("https://weatherapp-frontend-woad.vercel.app/")
             console.log("user saved in DB")
             return true
         }else{
@@ -34,7 +34,7 @@ document.querySelector('#connection').addEventListener('click', function (){
     .then(response => response.json())
     .then(data => {
         if (data.result){
-            window.location.assign("https://weatherapp-backend-fctd.vercel.app/")
+            window.location.assign("https://weatherapp-frontend-woad.vercel.app/")
             console.log("user logged in")
             return true
         }else{
